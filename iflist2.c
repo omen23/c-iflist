@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
     fprintf(stderr, "Usage: %s [ -h | --help ]\n", argv[0]);
     fprintf(stderr, "       %s INTERFACE ...\n", argv[0]);
     fprintf(stderr, "\n");
-    return 0;
+    return 1;
   }
   
   for (arg = 1; arg < argc; arg++) {
